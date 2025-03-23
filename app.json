@@ -1,28 +1,34 @@
 {
   "expo": {
-    "name": "native-app",
+    "name": "Catlearning",
     "slug": "native-app",
-    "version": "1.0.0",
+    "version": "1.0.3",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/iconCat.png",
     "userInterfaceStyle": "light",
     "newArchEnabled": true,
     "splash": {
-      "image": "./assets/splash-icon.png",
+      "image": "./assets/appFondo.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#290e15"
     },
     "ios": {
       "supportsTablet": true
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
-      }
+        "foregroundImage": "./assets/appFondo.png",
+        "backgroundColor": "#290e15"
+      },
+      "package": "com.kalu05.nativeapp"
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/faviconCat.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "ee0ae672-4ec5-40ab-bc3e-8984db138cc5"
+      }
     }
   }
 }
