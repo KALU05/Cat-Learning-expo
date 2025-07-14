@@ -1,7 +1,7 @@
 import React from 'react';
 import { View, StyleSheet } from 'react-native';
-import Circle from './Circle-text';
-import ImageDescription from './Image-description';
+import Circle from './CircleText';
+import ImageDescription from './ImageDescription';
 function Page(props) {
   return (
     <View style={styles.container}>

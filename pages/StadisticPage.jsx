@@ -1,14 +1,13 @@
 import { View , Text , StyleSheet} from "react-native";
-import Navbar from "../components/Navbar";
 import Pastel from "../components/Pastel";
 import ChartBar from "../components/ChartBar";
-
+import Navbar from "../components/Navbar";
+import PaintDemo from "../components/Victorychart";
 function Stadistic(){
     return(
     <View style={styles.StadisticContainer}>   
         <Text style={styles.texto}>Pagina de Estadistica</Text>
-        <Pastel/>
-        <ChartBar/>
+        <PaintDemo/>
         <Navbar/>
     </View>
     );
@@ -16,9 +15,10 @@ function Stadistic(){
 const styles =  StyleSheet.create({
     StadisticContainer:{
         flex: 1,
-        backgroundColor: '#290e15',
+        backgroundColor: '#290E15',
         justifyContent: 'center',
-        color: '#f2dbe1',
+        alignContent: 'center',
+        alignItems: 'center',
     },
     texto:{
         color: '#f2dbe1',
